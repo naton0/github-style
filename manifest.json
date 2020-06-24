@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Style",
+  "version": "1.1",
+  "description": "Makes GitHub look better!",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["style.js"]
+    }
+  ],
+  "manifest_version": 2
+}
